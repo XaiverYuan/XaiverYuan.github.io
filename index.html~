@@ -107,7 +107,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="thanks.jpg" alt="a picture of what"></div>
+    <div class="parallax"><img src="thanks.jpg" alt=""></div>
   </div>
 
   <div class="container">
@@ -123,21 +123,27 @@
           A year later, when I was applying to Carnegie,<a href="https://www.cs.purdue.edu/people/faculty/jblocki.html" style="color: black" target= "_blank">Professor Blocki </a>helped me a lot.
           During the following winter break, <a href="https://www.cs.purdue.edu/people/faculty/hbenotma.html" style="color: black" target="_blank">Professor Benotman </a> helped me with my project.
           I also have received help from 
-          Professor Xiangxiong Zhang, 
-          Professor Jean Honorio, 
-          Professor Tiantian Qin, 
-          Professor Kihong Park, 
-          Melanie, 
-          nandy 
-          and Professor Maji. 
+          <a href="https://www.math.purdue.edu/people/bio/zhan1966" style="color:black" target="_blank">
+          Professor Xiangxiong Zhang, </a>
+          <a href="https://www.cs.purdue.edu/people/faculty/jhonorio.html" style="color:black" target="_blank">
+          Professor Jean Honorio, </a>
+          <a href="https://www.stat.purdue.edu/people/faculty/tqin.html" style="color:black" target="_blank">
+          Tiantian Qin, </a>
+          <a href="https://www.cs.purdue.edu/people/faculty/park.html" style="color:black" target="_blank">
+          Professor Kihong Park, </a>
+          <a href="https://www.cs.arizona.edu/person/melanie-lotz" style="color:black" target="_blank">
+          Melanie, </a>
+          <a href="https://www.stat.purdue.edu/people/faculty/snandy.html" style="color:black" target="_blank">
+          nandy </a>
+          and 
+          <a href="https://www.stat.purdue.edu/people/faculty/snandy.html" style="color:black" target="_blank">
+          Professor Maji. </a>
           Thanks them a lot. Without them, I will not be confident and enegetic in studying.</p>
         </div>
       </div>
 
     </div>
   </div>
-
- 
   <div class="parallax-container valign-wrapper" id="japanese">
     <div class="section no-pad-bot">
       <div class="container">
@@ -146,7 +152,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="Japanese.PNG" alt="Chinese script at Boston Museum of Fine Arts"></div>
+    <div class="parallax"><img src="Japanese.PNG" alt="koto no ha no niwa"></div>
   </div>
 
   <div class="container">
