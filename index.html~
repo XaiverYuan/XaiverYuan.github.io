@@ -59,7 +59,8 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Welcome</h4>
-          <p class="left-align light">Hi~ I am Yizhen Yuan. I am currently an undergrad in Purdue University, majored in Computer Science Honor, Mathematics and Statistics. I am also a Master in Computer Science due to BS/MS program. I am interested in Cryptography, Algorithms, Machine Learning and Game design. If there is any related project (especially game design), I would like to join and help</p>
+          <p class="left-align light">Hi~ I am Yizhen Yuan. I am currently an undergrad in Purdue University, majored in Computer Science Honor(Concentration: Machine Learning, Security and Database), Mathematics and Statistics.
+          I am also a Master in Computer Science due to BS/MS program. I am interested in Cryptography, Algorithms, Machine Learning and Game design. If there is any related project (especially game design), I would like to join and help</p>
         </div>
       </div>
 
@@ -118,11 +119,12 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Thanks</h4>
-          <p class="left-align">When I come in to Purdue, <a href="https://www.cs.purdue.edu/people/faculty/turkstra.html" style="color: black" target="_blank">Professor Turkstra</a> have set up a good value as a computer scientist for me. 
+          <p class="left-align">
+          When I come in to Purdue, <a href="https://www.cs.purdue.edu/people/faculty/turkstra.html" style="color: black" target="_blank">Professor Turkstra</a> have set up a good value as a computer scientist for me.
           When I took CS 397 (Honor Seminar), <a href="https://www.cs.purdue.edu/people/faculty/zcelik.html" style="color: black" target="_blank">Professor Berkay</a> chose me to do project with him amoung a lot of Computer Science Honor students.
           A year later, when I was applying to Carnegie,<a href="https://www.cs.purdue.edu/people/faculty/jblocki.html" style="color: black" target= "_blank">Professor Blocki </a>helped me a lot.
           During the following winter break, <a href="https://www.cs.purdue.edu/people/faculty/hbenotma.html" style="color: black" target="_blank">Professor Benotman </a> helped me with my project.
-          I also have recieved help from Professor Xiangxiong Zhang, Professor Jean Honorio, Professor Tiantian Qin, Professor Kihong Park, Melanie, nandy and Professor Maji. Thanks them a lot, without them, I can not become a good student now.</p>
+          I also have received help from Professor Xiangxiong Zhang, Professor Jean Honorio, Professor Tiantian Qin, Professor Kihong Park, Melanie, nandy and Professor Maji. Thanks them a lot. Without them, I will not be confident and enegetic in studying.</p>
         </div>
       </div>
 
@@ -160,7 +162,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light" style="color: pink;">I know what should be here. It just ... takes time...</h5>
+          <h5 class="header col s12 light" style="color: pink;">I know what should be here. It just ... takes time...Or it might takes infinity long...</h5>
         </div>
       </div>
     </div>
@@ -174,7 +176,7 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h6>Contact Information</h6>
-          <p> Email: yuan226@purdue.edu <br>The template of this website is from Nozomichann</p>
+          <p> Email: yuan226@purdue.edu <br>The template of this website is from <a href="https://github.com/nzmysd/Nozpage/tree/gh-pages"> Nozomichann</a></p>
         </div>
       </div>
 
