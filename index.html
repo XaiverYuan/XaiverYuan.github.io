@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
+<!--酷炫特效-->
+<style>
+    .circle {
+        width: 565px;
+        height: 565px;
+    }
+</style>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
@@ -57,7 +64,36 @@
         <!--   Icon Section   -->
         <div class="row">
             <div class="row center">
-                <img class="circle responsive-img" src="oracle1.jpg" style="width: 365px; height: 365px">
+                <!--                <img class="circle responsive-img" src="oracle1.jpg" style="width: 365px; height: 365px">-->
+                <!--开始酷炫-->
+                <!-- 这是你原始的图片 -->
+                <img class="circle responsive-img" src="oracle1.jpg" onmouseover="changeImage()"
+                     onmouseout="resetImage()">
+
+                <!-- JavaScript代码 -->
+                <script>
+                    var originalImage = 'oracle1.jpg'; // 原始图片的路径
+
+                    function changeImage() {
+                        var randomNumber = Math.random() * 160; // 生成一个0到100之间的随机数
+
+                        if (randomNumber < 10) {
+                            document.querySelector('.circle').src = 'randomPics/做个好梦.png';
+                        } else if (randomNumber < 10 + 30) {
+                            document.querySelector('.circle').src = 'randomPics/怪物猎人.png'
+                        } else if (randomNumber < 10 + 30 + 50) {
+                            document.querySelector('.circle').src = 'randomPics/神里绫华！.JPG'
+                        } else {
+                            document.querySelector('.circle').src = 'randomPics/追光赤子.png'
+                        }
+
+                    }
+
+                    function resetImage() {
+                        document.querySelector('.circle').src = originalImage; // 鼠标移出时恢复原始图片
+                    }
+                </script>
+                <!--结束酷炫-->
             </div>
             <div class="col s12 center">
                 <h3><i class="mdi-content-send brown-text"></i></h3>
@@ -193,8 +229,12 @@
             Project Lead: <a href="https://yuanchun-li.github.io/#">Yuanchun Li</a><br>
             Section Lead: Hao Wen, Weijun Wang, Xiangyu Li, <b>Yizhen Yuan</b>, Guohong Liu<br>
             Cooperate With:
-            Jiacheng Liu, Wenxing Xu, Xiang Wang, Yi Sun, <a href="https://rui-kong.github.io/">Rui Kong</a>, Yile Wang, Hanfei Geng,
-            Jian Luan, Xuefeng Jin, Zilong Ye, Guanjing Xiong, Fan Zhang, Xiang Li,Mengwei Xu, Zhijun Li, Peng Li, Yang Liu, Ya-Qin Zhang, <a href="https://yunxinliu.github.io/"> Yunxin Liu</a> <br>
+            Jiacheng Liu, Wenxing Xu, Xiang Wang, Yi Sun, <a href="https://rui-kong.github.io/">Rui Kong</a>, Yile Wang,
+            Hanfei Geng,
+            Jian Luan, Xuefeng Jin, Zilong Ye, Guanjing Xiong, Fan Zhang, Xiang Li,Mengwei Xu, Zhijun Li, Peng Li, Yang
+            Liu, Ya-Qin Zhang, <a href="https://yunxinliu.github.io/"> Yunxin Liu</a> <br>
+            If you have any question about "Section Security", please let me know, I am responsible for this
+            Section.<br>
             <a href="https://github.com/MobileLLM/Personal_LLM_Agents_Survey/">github</a>
             <a href="https://yuanchun-li.github.io/static/files/personal_llm_agents.pdf">pdf</a>
 
@@ -205,6 +245,14 @@
             Li</a>, <a href="https://yunxinliu.github.io/"> Yunxin Liu</a> <br>
             <a href="https://dl.acm.org/doi/pdf/10.1145/3581783.3612032">pdf</a>
             <a href="https://github.com/XaiverYuan/PatchBackdoor">code</a>
+
+            <h5>WiP: AnOn-device LLM-based Approach to Query Privacy Protection<br></h5>
+            In Proceedings of the Workshop on Edge and Mobile Foundation Models (Mobisys EdgeFM workshop)<br>
+            <b>Yizhen Yuan</b>, <a href="https://rui-kong.github.io/">Rui Kong</a>, <a
+                href="https://yuanchun-li.github.io/#">Yuanchun
+            Li</a>, <a href="https://yunxinliu.github.io/"> Yunxin Liu</a> <br>
+            <a href="https://dl.acm.org/doi/pdf/10.1145/3662006.3662060">pdf</a>
+
             <h5>ConvReLU++: Reference-based Lossless Acceleration of Conv-ReLU Operations on Mobile CPU<br></h5>
             In Proceedings of the 21st ACM International Conference on Mobile Systems, Applications, and Services
             (MobiSys 2023). Accepted
@@ -212,52 +260,14 @@
             <a href="https://rui-kong.github.io/">Rui Kong</a>, <a href="https://yuanchun-li.github.io/#">Yuanchun
             Li</a> , <b>Yizhen Yuan</b>, Linghe Kong.<br>
             <a href="http://yuanchun-li.github.io/static/files/MobiSys23_ConvReLU++.pdf">pdf </a>
-            <br>
-
 
             <br>
+            <br>
 
-            </p>
         </div>
 
     </div>
 </div>
-
-
-<!--<div class="parallax-container valign-wrapper" id="project">-->
-<!--    <div class="section no-pad-bot">-->
-<!--        <div class="container">-->
-<!--            <div class="row center">-->
-<!--                <h5 class="header col s9 light"><a href="https://yyzyyz0803.pythonanywhere.com/tracks"-->
-<!--                                                   style="color:darkorange" target="_blank">This is my first project.-->
-<!--                    Dictionary of Professors</a></h5>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="parallax"><img src="project.PNG" alt="a screenshot of the project Dictionary of Professors"></div>-->
-<!--</div>-->
-
-<!--<div class="container">-->
-<!--    <div class="section">-->
-
-<!--        <div class="row">-->
-<!--            <div class="col s12 center">-->
-<!--                <h3><i class="mdi-content-send brown-text"></i></h3>-->
-
-<!--                <h4>My project</h4>-->
-<!--            </div>-->
-<!--            <h6 class="left-align">-->
-<!--                <ol>-->
-<!--                    <a href="https://yyzyyz0803.pythonanywhere.com/" target="_blank">Dictionary of Professors</a>-->
-<!--                    <p>This project aims on finding the similiarity between CS professors in Purdue by analysing-->
-<!--                        Professors` paper after 2010. </p>-->
-
-<!--                </ol>-->
-<!--            </h6>-->
-<!--        </div>-->
-
-<!--    </div>-->
-<!--</div>-->
 
 
 <div class="container">
