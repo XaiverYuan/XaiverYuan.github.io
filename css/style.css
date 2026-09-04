@@ -55,3 +55,17 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+/* Note accompanying items that have no official English name (e.g. Chinese patents) */
+.patent-note {
+  font-size: 0.85rem;
+  color: #777;
+  font-style: italic;
+}
+
+/* Language toggle button (shows the language you can switch to) */
+.lang-toggle {
+  cursor: pointer;
+  font-weight: 500;
+  color: #26a69a;
+}
