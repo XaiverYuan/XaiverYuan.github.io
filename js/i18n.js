@@ -22,6 +22,12 @@
     /* ----- 顶部横幅 ----- */
     'banner.subtitle': { en: 'Student, Researcher, Optimist', zh: '学生 · 研究者 · 乐观主义者' },
 
+    /* ----- 拼音重名提示条 ----- */
+    'notice.name': {
+      en: 'This is my personal homepage, so the "Yizhen Yuan" on this page is definitely me; however, because Chinese characters and pinyin are not one-to-one, the same pinyin name can belong to more than one person, so a "Yizhen Yuan" you see elsewhere (for example, in a paper) is not necessarily me.',
+      zh: '本页是我的个人主页，所以这里的「Yizhen Yuan」一定是我；但由于汉字与拼音并非一一对应，同一个拼音名可能对应不止一个人，因此您在别处（例如论文中）看到的「Yizhen Yuan」不一定是我。'
+    },
+
     /* ----- Welcome ----- */
     'welcome.h4': { en: 'Welcome', zh: '欢迎' },
     'welcome.p1': {

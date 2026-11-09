@@ -69,3 +69,27 @@ footer.page-footer {
   font-weight: 500;
   color: #26a69a;
 }
+
+/* Narrow notice strip under the navigation bar: explains that the pinyin
+   name may belong to another person (name collision) */
+.name-notice {
+  background-color: #e0f2f1;
+  border-bottom: 1px solid #b2dfdb;
+}
+
+.name-notice p {
+  margin: 0;
+  padding: 0.6rem 0.25rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #37474f;
+  text-align: center;
+}
+
+@media only screen and (max-width : 600px) {
+  .name-notice p {
+    padding: 0.55rem 0.25rem;
+    font-size: 0.85rem;
+    text-align: left;
+  }
+}
